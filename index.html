@@ -584,10 +584,37 @@ Beyond specific methods, the talk outlines a broader vision of an interconnected
   </ol>
 </section>
 
-  <section id="photos">
-    <h2>Photos</h2>
-    <p>TBD</p>
-  </section>
+<section id="photos">
+  <h2>Photos</h2>
+  <div class="photo-grid">
+    <img src="figures/group/IMG_0665.jpg" alt="Group Photo 1">
+    <img src="figures/group/IMG_0670.jpg" alt="Group Photo 2">
+    <img src="figures/group/IMG_0672.jpg" alt="Group Photo 3">
+    <img src="figures/group/IMG_0677.jpg" alt="Group Photo 4">
+    <img src="figures/group/IMG_0679.jpg" alt="Group Photo 5">
+    <img src="figures/group/IMG_0681.jpg" alt="Group Photo 6">
+    <img src="figures/group/IMG_0684.jpg" alt="Group Photo 7">
+    <img src="figures/group/IMG_0685.jpg" alt="Group Photo 8">
+    <img src="figures/group/IMG_0688.jpg" alt="Group Photo 9">
+    <img src="figures/group/IMG_0689.jpg" alt="Group Photo 10">
+    <img src="figures/group/IMG_0697.jpg" alt="Group Photo 11">
+  </div>
+</section>
+
+<style>
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+</style>
 
 <section id="contact">
   <h2>Contact</h2>
